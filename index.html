@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>From with Validation</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="left-container">
+        <img class="bg-img" src="./image/bg-image.jpg" alt="green fern">
+        <div class="odin-logo">
+          <img class="odin-icon" src="./image/odin-lined.png" alt="odin logo">
+          <h1 class="odin-title">ODIN</h1>
+          </div>
+      </div>
+      <div class="right-container">
+        <div class="some-text">
+        <h2>This is not a real online service! You know you need something like this in your
+        life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
+        <h2>You <em>know</em> you want to.</h2>
+        </div>
+        <div class="form-container">
+        <form action="signup" method="post">
+          <h2>Let's do this!</h2>
+        <div class="form-group">
+          <div class="form-group-flex">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" name="first_name" placeholder="John" required >
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="abc@email.com" required>
+
+          <label for="pass">Password</label>
+          <input type="password" id="pass" name="password" required>
+
+          </div>
+
+          <div class="form-group-flex">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Smith" required>
+
+          <label for="phone_num">Phone Number</label>
+          <input type="text" id="phone_num" name="phone_num" placeholder="0412345678" required>
+
+          <label for="pass_confirm">Confirm Password</label>
+          <input type="password" id="pass_confirm" name="password_confirm" required>
+          </div>
+
+        </div>
+        </form>
+      </div>
+      <div class="create-account-container">
+        <button class="btn-create-account">Create Account</button>
+        <div>Already have an account? <a href="">Log in</a></div>
+      </div>
+  </body>
+</html>
